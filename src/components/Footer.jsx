@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
       </div>
       <hr />
-      <p className="copyright">copyright &copy; SideHustle React Group 73</p>
+      <p className="copyright"> &copy; 2022 - Babatunde Adeniyi</p>
     </footer>
   );
 };
