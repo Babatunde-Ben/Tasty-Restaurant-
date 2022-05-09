@@ -6,8 +6,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: var(--color-2);
+  background-color: var(--color-2);
   z-index: 100;
+  box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.1);
+}
+.Navbar.sticky {
+  background-color: var(--color-1);
+  height: 55px;
 }
 
 .nav-logo {
@@ -15,6 +20,10 @@
   font-size: 2rem;
   color: #ffffff;
   font-family: "Satisfy", cursive;
+}
+.Navbar.sticky .nav-logo {
+  color: var(--color-3);
+  font-size: 1.7rem;
 }
 
 .Navbar > .nav-items > .link {
@@ -26,7 +35,9 @@
   letter-spacing: 1px;
   position: relative;
 }
-
+.Navbar.sticky .link {
+  color: var(--color-3);
+}
 .Navbar > .nav-items > .link:hover {
   color: var(--footer);
 }
@@ -55,7 +66,7 @@
   .Navbar > .nav-items {
     position: absolute;
     top: 60px;
-    height: 3500px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     background: var(--color-2);
@@ -65,9 +76,13 @@
     transition: all 0.45s;
     z-index: 20;
   }
+  .Navbar.sticky .nav-items {
+    top: 55px;
+  }
   .Navbar > .nav-items > .link {
     margin: 2rem;
     /* border-bottom: 1px solid rgb(255, 255, 255); */
+    color: var(--color-1);
     transition: all 0.5s ease-in-out;
   }
   .Navbar > .nav-items > .link::before {
@@ -109,6 +124,13 @@
   .nav-toggle > .bar::after {
     width: 32px;
     transform: translateY(8px);
+  }
+  .Navbar.sticky .bar {
+    background-color: var(--color-3);
+  }
+  .Navbar.sticky .bar::before,
+  .Navbar.sticky .bar::after {
+    background-color: var(--color-3);
   }
   .nav-toggle.open > .bar {
     transform: translateX(-40px);

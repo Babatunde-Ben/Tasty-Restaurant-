@@ -11,6 +11,7 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  // dynamically make the navbar sticky on scroll
   useEffect(() => {
     window.addEventListener("scroll", () => {
       if (window.scrollY > 60) {
@@ -20,6 +21,16 @@ const Navbar = () => {
       }
     });
   }, []);
+
+  // dynamically change the styling of the navbar on scroll
+  useEffect(() => {
+    const navbarElement = document.querySelector(".Navbar");
+    if (stickyNavbar == "fixed") {
+      navbarElement.classList.add("sticky");
+    } else {
+      navbarElement.classList.remove("sticky");
+    }
+  }, [stickyNavbar]);
 
   return (
     <div className="Navbar" style={{ position: stickyNavbar }}>
