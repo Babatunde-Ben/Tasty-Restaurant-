@@ -1,0 +1,28 @@
+.value {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 3rem 5rem;
+}
+
+.value div:nth-child(1) {
+  max-width: 500px;
+}
+.value div:nth-child(2) {
+  max-width: 400px;
+}
+.value div img {
+  width: 100%;
+}
+
+.value .value-text {
+  color: var(--color-4);
+  padding-right: 10px;
+}
+@media screen and (max-width: 480px) {
+  .value {
+    padding: 1.5rem 1.2rem;
+  }
+}

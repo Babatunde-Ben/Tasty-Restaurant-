@@ -1,0 +1,57 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background-color: var(--nav-bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 10vh;
+    color: var(--header-color);
+}
+
+li {
+    list-style: none;
+    padding: 3px;
+}
+
+.nav-links {
+    display: flex;
+    margin-right: 20px;
+    color: aliceblue;
+}
+
+.nav-item {
+    color: rgb(10, 139, 252);
+}
+
+.brand {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+#logoR {
+    width: 25px;
+    height: 25px;
+    pointer-events: none;
+    margin-right: 10px;
+    animation: App-logo-spin infinite 10s linear;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    #logoR {
+        animation: App-logo-spin infinite 6s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

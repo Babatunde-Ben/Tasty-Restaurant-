@@ -1,0 +1,31 @@
+/* .to-top-but {
+	border: none;
+	border-radius: 10px;
+	background-color: var(--color-3);
+	padding: 10px;
+	text-align: center;
+	font-style: oblique;
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 10px;
+}
+
+.to-top-but  a{
+color: var(--color-1);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+} */
+
+.top-btn {
+  position: fixed;
+  right: 1.4rem;
+  bottom: 1.8rem;
+  box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--color-1);
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.top-btn.active {
+  display: block;
+}

@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+#back_to_top {
+  padding: 15px;
+  border-radius: 20px;
+  width: max-content;
+  height: max-content;
+  letter-spacing: 0.5rem;
+  color: var(--header-color);
+  background-color: var(--color-2);
+}
