@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Tasty-Restaurant-/static/css/main.01b9f0da.css",
+    "main.js": "/Tasty-Restaurant-/static/js/main.4209cbb5.js",
+    "static/js/787.c8de6e26.chunk.js": "/Tasty-Restaurant-/static/js/787.c8de6e26.chunk.js",
+    "static/media/emojisky.com-8041071.png": "/Tasty-Restaurant-/static/media/emojisky.com-8041071.81a927056c304dee40d7.png",
+    "static/media/banner.jpg": "/Tasty-Restaurant-/static/media/banner.8af628d5edbf58ff4dc5.jpg",
+    "static/media/meal-7.jpg": "/Tasty-Restaurant-/static/media/meal-7.f8b792658fdcfd2b55a4.jpg",
+    "static/media/meal-5.jpg": "/Tasty-Restaurant-/static/media/meal-5.8967081225cdb0529f6e.jpg",
+    "static/media/meal-1.jpg": "/Tasty-Restaurant-/static/media/meal-1.cd3dbcae4476ad86c4d8.jpg",
+    "static/media/meal-8.jpg": "/Tasty-Restaurant-/static/media/meal-8.57f263554974995be1c3.jpg",
+    "static/media/meal-9.jpg": "/Tasty-Restaurant-/static/media/meal-9.4e1d12eba88675cd01dc.jpg",
+    "static/media/meal-6.jpg": "/Tasty-Restaurant-/static/media/meal-6.319e35446de277e2f5e5.jpg",
+    "static/media/meal-2.jpg": "/Tasty-Restaurant-/static/media/meal-2.51bfa7c427da104a13cb.jpg",
+    "static/media/meal-4.jpg": "/Tasty-Restaurant-/static/media/meal-4.bfb1f8bf86b2aa6281d5.jpg",
+    "static/media/meal-3.jpg": "/Tasty-Restaurant-/static/media/meal-3.e6c83fa94100e4757c80.jpg",
+    "static/media/error.svg": "/Tasty-Restaurant-/static/media/error.ad3e83f86372a328b906724dd2bf8864.svg",
+    "index.html": "/Tasty-Restaurant-/index.html",
+    "main.01b9f0da.css.map": "/Tasty-Restaurant-/static/css/main.01b9f0da.css.map",
+    "main.4209cbb5.js.map": "/Tasty-Restaurant-/static/js/main.4209cbb5.js.map",
+    "787.c8de6e26.chunk.js.map": "/Tasty-Restaurant-/static/js/787.c8de6e26.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01b9f0da.css",
+    "static/js/main.4209cbb5.js"
+  ]
+}
