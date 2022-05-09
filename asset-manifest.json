@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Tasty-Restaurant-/static/css/main.01b9f0da.css",
+    "main.css": "/Tasty-Restaurant-/static/css/main.39ecdaa0.css",
     "main.js": "/Tasty-Restaurant-/static/js/main.ddda3cb0.js",
     "static/js/787.c8de6e26.chunk.js": "/Tasty-Restaurant-/static/js/787.c8de6e26.chunk.js",
     "static/media/emojisky.com-8041071.png": "/Tasty-Restaurant-/static/media/emojisky.com-8041071.81a927056c304dee40d7.png",
@@ -16,12 +16,12 @@
     "static/media/meal-3.jpg": "/Tasty-Restaurant-/static/media/meal-3.e6c83fa94100e4757c80.jpg",
     "static/media/error.svg": "/Tasty-Restaurant-/static/media/error.ad3e83f86372a328b906724dd2bf8864.svg",
     "index.html": "/Tasty-Restaurant-/index.html",
-    "main.01b9f0da.css.map": "/Tasty-Restaurant-/static/css/main.01b9f0da.css.map",
+    "main.39ecdaa0.css.map": "/Tasty-Restaurant-/static/css/main.39ecdaa0.css.map",
     "main.ddda3cb0.js.map": "/Tasty-Restaurant-/static/js/main.ddda3cb0.js.map",
     "787.c8de6e26.chunk.js.map": "/Tasty-Restaurant-/static/js/787.c8de6e26.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01b9f0da.css",
+    "static/css/main.39ecdaa0.css",
     "static/js/main.ddda3cb0.js"
   ]
 }
