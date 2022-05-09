@@ -9,9 +9,6 @@
   color: rgb(228, 228, 228);
   /* color: black; */
 }
-.contact-title {
-  /* margin-top: 4rem; */
-}
 
 .col-2 .address-lists {
   display: flex;
@@ -96,7 +93,7 @@
     padding: 1.8rem 1rem;
   }
   .contact-form {
-    width: 16.85rem;
+    width: 80vw;
   }
   .social-media {
     margin-bottom: 20px;

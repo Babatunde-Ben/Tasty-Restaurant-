@@ -15,7 +15,7 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter basename="rgp-73-store">
+    <BrowserRouter basename="Tasty-Restaurant-">
       <Routes>
         <Route path="/" element={<Wrapper />}>
           <Route index element={<Home />} />
@@ -23,10 +23,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/products" element={<Products />}>
             <Route index path="/products" element={<Product />} />
-            <Route
-              path="/products/:productId"
-              element={<Product />}
-            />
+            <Route path="/products/:productId" element={<Product />} />
           </Route>
           <Route path={"*"} element={<Error />} />
         </Route>
