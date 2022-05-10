@@ -1,12 +1,12 @@
 import React from "react";
 
 // Component import
-import Banner from "./Banner";
-import Value from "./Value";
-import Testimonials from "./Testimonials";
+import Banner from "../components/Banner";
+import Value from "../components/Value";
+import Testimonials from "../components/Testimonials";
 import Products from "./Products";
-import BackToTop from "./BackToTop";
-import Newsletter from "./Newsletter";
+import BackToTop from "../components/BackToTop";
+import Newsletter from "../components/Newsletter";
 
 // styles import
 import "../css/home.css";
