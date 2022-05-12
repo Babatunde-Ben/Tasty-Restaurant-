@@ -81,7 +81,7 @@ const productDetails = [
 
 // display service unavailable
 function service() {
-  alert("Service Unavailable");
+  alert("This service is currently unavailable");
 }
 // component for eact product
 const SingleProduct = ({ productDetails }) => {
