@@ -79,6 +79,10 @@ const productDetails = [
   },
 ];
 
+// display service unavailable
+function service() {
+  alert("Service Unavailable");
+}
 // component for eact product
 const SingleProduct = ({ productDetails }) => {
   const { name, image, desc, price } = productDetails;
@@ -92,7 +96,14 @@ const SingleProduct = ({ productDetails }) => {
         <p className="product-desc">{desc}</p>
         <div className="order">
           <p className="product-price">&#8358;{price}</p>
-          <button className="order-btn">Order Now</button>
+          <button
+            className="order-btn"
+            onClick={() => {
+              service();
+            }}
+          >
+            Order Now
+          </button>
         </div>
       </div>
     </div>
