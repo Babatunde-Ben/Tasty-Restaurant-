@@ -25,7 +25,7 @@ const Navbar = () => {
   // dynamically change the styling of the navbar on scroll
   useEffect(() => {
     const navbarElement = document.querySelector(".Navbar");
-    if (stickyNavbar == "fixed") {
+    if (stickyNavbar === "fixed") {
       navbarElement.classList.add("sticky");
     } else {
       navbarElement.classList.remove("sticky");

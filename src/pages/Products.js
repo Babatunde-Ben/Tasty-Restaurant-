@@ -1,5 +1,6 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
+// import { Outlet } from "react-router-dom";
+
 // Component import
 import meal1 from "../img/meal-1.jpg";
 import meal2 from "../img/meal-2.jpg";
