@@ -50,7 +50,11 @@ const Footer = () => {
         </div>
       </div>
       <hr />
-      <p className="copyright"> &copy; 2022 - Babatunde Adeniyi</p>
+      <p className="copyright">
+        {" "}
+        &copy; 2022{" "}
+        <a href="mailto:babatundeben110@gmail.com">Babatunde Adeniyi</a>{" "}
+      </p>
     </footer>
   );
 };

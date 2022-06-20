@@ -26,25 +26,17 @@ footer {
 .footer-row div ul li {
   list-style: none;
   text-transform: capitalize;
+  margin-bottom: 5px;
 }
 
 .quick-links {
   color: var(--footer);
   display: inline-block;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
   position: relative;
 }
-.quick-links::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 1px;
-  background-color: var(--footer);
-}
 .quick-links:hover {
-  color: var(--color-4);
+  color: rgb(168, 168, 168);
 }
 .footer-row .nav-logo {
   font-weight: 700;
