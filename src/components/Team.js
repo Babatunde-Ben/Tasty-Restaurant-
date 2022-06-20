@@ -7,16 +7,16 @@ const memberDetails = [
   {
     id: 1,
     image: memo,
-    name: "roji tech",
+    name: "babatunde adeniyi",
     title: "CEO",
-    color: "bisque",
+    color: "aquamarine",
   },
   {
     id: 2,
     image: memo,
-    name: "babatunde adeniyi",
+    name: "John Doe",
     title: "Acountant",
-    color: "aquamarine",
+    color: "bisque",
   },
   {
     id: 3,

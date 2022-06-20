@@ -39,7 +39,8 @@
   color: var(--color-3);
 }
 .Navbar > .nav-items > .link:hover {
-  color: var(--footer);
+  color: rgb(234, 234, 234);
+  /* color: red; */
 }
 .Navbar.sticky > .nav-items > .link:hover {
   color: var(--color-3);
