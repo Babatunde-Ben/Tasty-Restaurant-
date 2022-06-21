@@ -27,7 +27,7 @@
 .newsletter-section form input {
   width: 100%;
   outline: none;
-  padding: 0 0.5rem;
+  padding: 0.4rem 0.6rem;
   border: 2px solid var(--color-4);
 }
 .newsletter-section form button {

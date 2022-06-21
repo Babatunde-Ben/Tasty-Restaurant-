@@ -34,7 +34,7 @@ const Testimonials = () => {
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Voluptates, ex!"
           </p>
-          <h3 className="author">Ali Soodiq</h3>
+          <h3 className="author">Florence Wisdom</h3>
         </div>
       </div>
     </section>
