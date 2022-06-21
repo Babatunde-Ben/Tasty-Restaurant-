@@ -47,12 +47,12 @@ const Contact = () => {
           </div>
           <div className="address-lists">
             <FaPhoneAlt className="address-icon" />
-            <p className="address-text">267-693-9364</p>
+            <p className="address-text">+234 9072583081</p>
           </div>
 
           <div className="address-lists">
             <HiOutlineMail className="address-icon" />
-            <p className="email address-text">example@email.com</p>
+            <p className="email address-text">babatundeben110@gmail.com</p>
           </div>
           <div className="row-2 social-media">
             <FaTwitter className="social-media-icon" />
