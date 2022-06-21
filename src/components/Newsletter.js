@@ -1,6 +1,8 @@
 import React from "react";
 import "../css/newsletter.css";
 import { useState } from "react";
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
 
 const Newsletter = () => {
   const [email, setEmail] = useState("");
@@ -8,10 +10,18 @@ const Newsletter = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!email.match(pattern)) {
-      alert(`invalid email`);
+      // alert(`invalid email`);
+      Swal.fire({
+        icon: "error",
+        title: "Invalid email",
+      });
     } else {
       setEmail("");
-      alert(`form submitted`);
+      // alert(`form submitted`);
+      Swal.fire({
+        icon: "success",
+        title: "Email Received",
+      });
     }
   };
   return (
@@ -24,6 +34,7 @@ const Newsletter = () => {
       <form className="form" onSubmit={handleSubmit}>
         <input
           type="text"
+          name="email"
           placeholder="youremail@email.com"
           value={email}
           onChange={(e) => setEmail(e.target.value)}

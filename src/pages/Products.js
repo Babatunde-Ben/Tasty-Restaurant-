@@ -1,5 +1,7 @@
 import React from "react";
 // import { Outlet } from "react-router-dom";
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
 
 // Component import
 // import meal1 from "../img/meal-1.jpg";
@@ -83,7 +85,11 @@ const productDetails = [
 
 // display service unavailable
 function service() {
-  alert("This service is currently unavailable");
+  // alert("This service is currently unavailable");
+  Swal.fire({
+    icon: "error",
+    title: "This service is currently unavailable",
+  });
 }
 // component for eact product
 const SingleProduct = ({ productDetails }) => {
