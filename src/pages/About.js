@@ -4,9 +4,11 @@ import Stats from "../components/Stats";
 import Team from "../components/Team";
 
 import "../css/about.css";
+import useScrollUp from "../hooks/useScrollUp";
 import meal5 from "../img/meal-5.jpg";
 
 const About = () => {
+  useScrollUp();
   return (
     <section className="product-section">
       <h2 className="custom-title product-title">

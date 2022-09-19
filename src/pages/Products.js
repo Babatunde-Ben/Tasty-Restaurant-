@@ -1,7 +1,6 @@
 import React from "react";
 // import { Outlet } from "react-router-dom";
 import Swal from "sweetalert2";
-import withReactContent from "sweetalert2-react-content";
 
 // Component import
 // import meal1 from "../img/meal-1.jpg";
@@ -16,6 +15,7 @@ import meal8 from "../img/Salmon_with_roasted_vegetables.jpg";
 import meal9 from "../img/Chicken_Piccata_with_Artichokes.jpg";
 
 import "../css/products.css";
+import useScrollUp from "../hooks/useScrollUp";
 
 const productDetails = [
   {
@@ -118,6 +118,7 @@ const SingleProduct = ({ productDetails }) => {
   );
 };
 const Products = () => {
+  useScrollUp();
   return (
     <section className="product-section">
       <h2 className="custom-title product-title">

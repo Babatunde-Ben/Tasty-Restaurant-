@@ -10,6 +10,7 @@ import {
   FaPhoneAlt,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
+import useScrollUp from "../hooks/useScrollUp";
 
 const Contact = () => {
   // control form submit function
@@ -31,6 +32,7 @@ const Contact = () => {
     email: "",
     message: "",
   });
+  useScrollUp();
 
   return (
     <section className="contact-section">
