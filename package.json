@@ -1,6 +1,5 @@
 {
-  "homepage": "https://babatunde-ben.github.io/Tasty-Restaurant-",
-  "name": "react_front",
+  "name": "tasty-restaurant",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

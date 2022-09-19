@@ -15,7 +15,7 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter basename="Tasty-Restaurant-">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Wrapper />}>
           <Route index element={<Home />} />
